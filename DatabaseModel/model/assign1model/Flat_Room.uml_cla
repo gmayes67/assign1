@@ -7,5 +7,26 @@
    isFinalSpecialization='false'
    isLeaf='false'
    name='Flat_Room'
-   visibility='public'/>
+   visibility='public'>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:8bffea00-451b-4f27-9e1b-58e341cec750'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='PLACE_ID'
+    aggregation='none'
+    visibility='package'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:322087a7-708a-473b-b2b2-938db8d3972f'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:458875a2-bea8-44ee-8fca-16abb8920a4c'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
 </xmi:XMI>

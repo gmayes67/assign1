@@ -7,5 +7,26 @@
    isFinalSpecialization='false'
    isLeaf='false'
    name='Hall_Room'
-   visibility='public'/>
+   visibility='public'>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:5b847a0c-35d8-4f2b-9299-554717b7564c'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='PLACE_ID'
+    aggregation='none'
+    visibility='package'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:4d7311ed-7193-4318-a07e-fca1e5e1e4d0'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:c4c3f744-2cb7-448e-9301-e86476ddf306'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
 </xmi:XMI>

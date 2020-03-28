@@ -7,5 +7,26 @@
    isFinalSpecialization='false'
    isLeaf='false'
    name='Studio'
-   visibility='public'/>
+   visibility='public'>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:66f51ec0-2f97-4a03-b998-980925a3cffb'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='PLACE_ID'
+    aggregation='none'
+    visibility='package'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:d02c1312-298b-49dc-be27-525d0ecba56c'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:9aafbefe-d8a2-40ad-b243-aba25dbfe234'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
 </xmi:XMI>
